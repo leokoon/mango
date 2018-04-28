@@ -12,7 +12,20 @@
         <module>mango-all</module>
         <module>mango-bom</module>
         <module>mango-rpc</module>
+        <module>mango-config</module>
+        <module>mango-dependencies-bom</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>pers.mango</groupId>
+                <artifactId>mango-dependencies-bom</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

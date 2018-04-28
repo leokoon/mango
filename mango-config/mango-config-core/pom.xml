@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mango-parent</artifactId>
+        <artifactId>mango-config</artifactId>
         <groupId>pers.mango</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mango-rpc</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>mango-rpc-default</module>
-        <module>mango-rpc-core</module>
-    </modules>
+    <artifactId>mango-config-api</artifactId>
 
 
 </project>
